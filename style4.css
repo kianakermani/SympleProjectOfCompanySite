@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'berlin' ;
+    src: url('BRLNSR.TTF') format('truetype');
+}
+
+@font-face {
+    font-family:'imprint' ;
+    src: url('IMPRISHA.TTF') format('truetype');
+}
+
+.body {
+    font-family: berlin;
+}
+
+.header { height: 750px;
+    background-image: url('lap2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 25px;
+
+}
+
+.header .nav-list{
+    list-style-type: none;
+    text-align: center;
+    color: rgb(29, 29, 97);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-item:hover {
+    color: rgb(197, 40, 40);
+}
+
+.title {
+    font-size: 80px;
+    font-family: imprint;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(20, 22, 65);
+
+}
+
+.X {
+    color: rgb(221, 150, 63);
+}
+
+.des {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color:rgb(10, 13, 66) ;
+    padding-top: 40px;
+
+}
+h2 {
+    padding-bottom: 40px;
+}
+
+.members {
+    text-align: center;
+    padding: 50px 30px;
+    background-image: url('back1.png');
+    background-size: cover;
+
+}
+
+.members-list {
+    list-style-type: none;
+    
+}
+
+.member-item {
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 12px darkgrey;
+
+}
+
+.member-pic {
+    width: 100%;
+    height: 30%;
+
+}
+
+.member-bio {
+    padding: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.about {
+    height: 750px;
+    background-image: url('lapp.jpg');
+    background-size: cover;
+    padding-top: 65px;
+    background-color: rgb(183, 183, 183);
+    background-blend-mode: multiply;
+    
+}
+
+.circle {
+    width: 650px;
+    height: 620px;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding: 90px 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.circle p {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.circle h2 {
+    font-size: 30px;
+}
+
+.socials{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(220, 220, 220);
+    
+}
+
+
+.instagram{
+    height: 40px;
+    padding-right: 20px;
+}
+.telegram{
+
+    height: 40px;
+}
+
+.whatsapp{
+    height: 40px;
+    padding-left: 20px;
+}
