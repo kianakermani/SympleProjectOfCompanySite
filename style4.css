@@ -111,7 +111,6 @@ h2 {
 }
 
 .about {
-    height: 750px;
     background-image: url('lapp.jpg');
     background-size: cover;
     padding-top: 65px;
@@ -121,12 +120,12 @@ h2 {
 }
 
 .circle {
-    width: 650px;
-    height: 620px;
+    height: 150%;
+    width:44%;
     margin: auto;
     border-radius: 50%;
     text-align: center;
-    padding: 90px 120px;
+    padding: 122px 120px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -143,7 +142,8 @@ h2 {
 
 .social {
     text-align: center;
-    margin: 10px;
+    padding: 10px;
+    background-color: rgb(200, 200, 200);
 }
 
 #insta {
