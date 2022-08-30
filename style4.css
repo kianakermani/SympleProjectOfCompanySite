@@ -114,6 +114,7 @@ h2 {
     background-image: url('lapp.jpg');
     background-size: cover;
     padding-top: 65px;
+    padding-bottom: 65px;
     background-color: rgb(183, 183, 183);
     background-blend-mode: multiply;
     
