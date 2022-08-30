@@ -141,24 +141,21 @@ h2 {
     font-size: 30px;
 }
 
-.socials{
+.social {
     text-align: center;
-    padding: 10px;
-    background-color:rgb(220, 220, 220);
-    
+    margin: 10px;
 }
 
-
-.instagram{
-    height: 40px;
-    padding-right: 20px;
-}
-.telegram{
-
-    height: 40px;
+#insta {
+    font-size: 30px;
 }
 
-.whatsapp{
-    height: 40px;
-    padding-left: 20px;
+#tele {
+    font-size: 30px;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+
+#whats {
+    font-size: 30px;
 }
